@@ -13,6 +13,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
 public class Application {
+  //url
   @Value("${ALLOWED_ORIGINS:https://books-frontend-agile-testing.herokuapp.com}")
   private String allowedOrigins;
 
